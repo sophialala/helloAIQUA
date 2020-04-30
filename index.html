@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sophia Test</title>
+    <script src="https://aiqua-stg-qgraph.s3-ap-southeast-1.amazonaws.com/dist/aiqua-wp.js"></script>
+    <script>
+    AIQUA.init({
+        appId: '4ee80b428feb5c2c4456',
+        timeout: 5000
+    });
+    </script>
 </head>
 <body>
     <p>hello AIQUA</p>
+    <script type="text/javascript">
+        !function(q,g,r,a,p,h,js) {
+          if(q.qg)return;
+          js = q.qg = function() {
+            js.callmethod ? js.callmethod.call(js, arguments) : js.queue.push(arguments);
+          };
+          js.queue = [];
+          p=g.createElement(r);p.async=!0;p.src=a;h=g.getElementsByTagName(r)[0];
+          h.parentNode.insertBefore(p,h);
+        } (window,document,'script','https://aiqua-stg-qgr-ph.s3-ap-southeast-1.amazonaws.com/qgr-http/qgraph.4ee80b428feb5c2c4456.js');
+      </script>
 </body>
 </html>
